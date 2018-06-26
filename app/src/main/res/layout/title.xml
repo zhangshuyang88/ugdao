@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#4ECBC9"
+    android:orientation="horizontal"
+    tools:context="com.ugdao.ugdao.ui.LoginActivity">
+
+    <TextView
+
+        android:id="@+id/tv_totaltitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:padding="6dp"
+        android:src="@drawable/v5_0_1_flipper_head_flip" />
+
+    <ImageView
+        android:id="@+id/lv_map"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
